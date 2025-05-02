@@ -11,6 +11,7 @@ This repository contains the codebase and results for a deep learning pipeline d
 - **Performance**: Final test-time average Dice score: **0.7024**
 
 ## Project Structure
+.
 ├── dataset.py # MONAI-based dataset loader
 ├── transforms.py # Training/validation transforms
 ├── model.py # Model architecture config
