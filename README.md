@@ -11,17 +11,17 @@ This repository contains the codebase and results for a deep learning pipeline d
 - **Performance**: Final test-time average Dice score: **0.7024**
 
 ## Project Structure
-.
-├── dataset.py # MONAI-based dataset loader
-├── transforms.py # Training/validation transforms
-├── model.py # Model architecture config
-├── loss.py # Loss functions (Dice, Tversky, BCE+Dice)
-├── metrics.py # Dice metric logic (uses MONAI)
-├── train.py # Training loop with early stopping and logging
-├── utils.py # Learning rate scheduling, reproducibility helpers
-├── config.py # Centralized parameters and paths
-├── data_analysis.ipynb # EDA and tumor volume/intensity visualization
-└── inference/ # Scripts and tools for test-time evaluation
+-  dataset.py # MONAI-based dataset loader
+-  transforms.py # Training/validation transforms
+-  model.py # Model architecture config
+-  loss.py # Loss functions (Dice, Tversky, BCE+Dice)
+-  metrics.py # Dice metric logic (uses MONAI)
+-  train.py # Training loop with early stopping and logging
+-  utils.py # Learning rate scheduling, reproducibility helpers
+-  config.py # Centralized parameters and paths
+-  data_analysis.ipynb # EDA and tumor volume/intensity visualization
+-  inference/ # Scripts and tools for test-time evaluation
+
 
 
 ## Key Features
